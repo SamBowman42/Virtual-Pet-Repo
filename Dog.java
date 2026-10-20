@@ -18,7 +18,12 @@ public class Dog extends Pet {
         System.out.println(getName() + " says: Woof!");
     }
 
+	/**
+	 * Prints the name of the dog followed by " fetches the ball!"
+	 */
 	public void fetch() {
 		System.out.println(getName() + " fetches the ball!");
 	}
+
+
 }
