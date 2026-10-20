@@ -22,6 +22,9 @@ public class Main {
         dog.sit();
         dog.rollOver();
 
+        // Demonstrate new cat feature
+        cat.pout();
+
         dog.showStatus();
         cat.showStatus();
     }
