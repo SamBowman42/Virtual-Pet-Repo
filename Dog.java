@@ -31,4 +31,11 @@ public class Dog extends Pet {
 	public void sit() {
 		System.out.println(getName() + " sits respectfully.");
 	}
+
+	/**
+	 * Prints the name of the dog followed by "rolls over gracefully"
+	 */
+	public void rollOver() {
+		System.out.println(getName() + " rolls over gracefully.");
+	}
 }
