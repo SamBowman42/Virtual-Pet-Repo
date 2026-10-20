@@ -2,7 +2,7 @@
 Class for defining a dog in a virtual pet simulator.
 */
 public class Dog extends Pet {
-	/**
+	/**
 	Constructor for Dog. Uses the Super constructor from Pet to set
 	the name of the Dog
 	@param name the name of the dog
@@ -18,7 +18,24 @@ public class Dog extends Pet {
         System.out.println(getName() + " says: Woof!");
     }
 
+	/**
+	 * Prints the name of the dog followed by " fetches the ball!"
+	 */
 	public void fetch() {
 		System.out.println(getName() + " fetches the ball!");
+	}
+
+	/**
+	 * Prints the name of the dog followed by " sits respectfully."
+	 */
+	public void sit() {
+		System.out.println(getName() + " sits respectfully.");
+	}
+
+	/**
+	 * Prints the name of the dog followed by "rolls over gracefully"
+	 */
+	public void rollOver() {
+		System.out.println(getName() + " rolls over gracefully.");
 	}
 }

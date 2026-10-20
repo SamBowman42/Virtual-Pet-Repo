@@ -18,6 +18,10 @@ public class Main {
         dog.feed();
         cat.play();
 
+        // Demonstrate new dog features
+        dog.sit();
+        dog.rollOver();
+
         dog.showStatus();
         cat.showStatus();
     }
